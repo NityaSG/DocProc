@@ -2,3 +2,4 @@ requests
 fitz
 Flask
 gunicorn==19.7.1
+frontend
