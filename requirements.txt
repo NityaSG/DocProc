@@ -2,4 +2,3 @@ requests
 PyMuPDF==1.16.14
 Flask
 gunicorn==19.7.1
-frontend
