@@ -37,8 +37,6 @@ def parse_pdf():
 
     try:
         text = extract_text_from_pdf(pdf_url)
-        # You can implement your data extraction logic here based on the structure of the PDF
-        # For this example, let's assume we are just returning the extracted text as JSON.
         return jsonify({'text': text})
     except Exception as e:
         return jsonify({'error': str(e)}), 400
